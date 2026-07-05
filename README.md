@@ -44,27 +44,48 @@ Thank you for understanding!
 ![manage_booking](https://user-images.githubusercontent.com/5623994/51089150-6d3e8f00-1736-11e9-9af0-601ef58847b4.PNG)
 
 ## For developer
-**Run PHP unit tests**
-```
-$ ./vendor/bin/phpunit tests
-```
-```
-$ ./vendor/bin/phpunit tests/CustomerHandlerTest.php
-```
-```
-$ ./vendor/bin/phpunit --filter testUpdateCustomer tests
-```
-**Run PHP code beautifier and fixer**
-```
-$ ./vendor/bin/phpcbf app/process_login.php --standard=ruleset.xml
-```
-```
-$ ./vendor/bin/phpcbf app/*/*.php --standard=ruleset.xml
-```
-**Run ESLint to format/fix JavaScript code**
-```
-npm run eslint
-```
-```
-npm run eslint -- --fix
-```
+
+Software/ Tools Used
+● Visual Studio Code
+● XAMPP Server
+● MySQL Database
+● Google Chrome Browser
+Run step by stephStep
+1: Install XAMPPFirst, install XAMPP on your system
+.XAMPP provides:
+● Apache Server
+● MySQL Database
+● PHP Support
+Download from:https://www.apachefriends.org
+After installation, open XAMPP Control Panel 
+.Step 2: Start Apache and MySQL
+In XAMPP Control Panel, click:
+● Start Apache
+● Start MySQL
+Both services should turn green.
+Step 3: Copy Project Folder
+Copy your project folder
+Hotel Management System
+Paste it inside:
+C:\xampp\htdocs\
+Example:  C:\xampp\htdocs\hotel_management_system
+Step 4: Open phpMyAdmin
+Open browser and type:
+http://localhost/phpmyadmin
+Click New and create database.
+Example database name:hotel
+Step 5: Import Database
+Inside database → click Import
+Choose the .sql file from project folder.
+Example:  hotel.sql
+       Then click Go Database tables will be created automatically. 
+Step 6: Check Database Connection
+Open project file: db.php
+Check database name:
+  $conn = mysqli_connect("localhost","root","","hotel");
+Make sure database name matches phpMyAdmin database.
+Step 7: Run Project
+ Open browser and type:http://localhost/hotel_management_system 
+Step 8: Admin LoginIf admin panel is available, 
+open:http://localhost/hotel_management_system/admin
+Login using admin username and password.
