@@ -1,10 +1,29 @@
 # Hotel Management System
 
-This project was created as a learning exercise during my early days of exploring web programming. It is not intended for commercial use or enterprise-grade deployment. As a result, the code may contain vulnerabilities, as the focus was on simplicity and functionality rather than robustness or security.
+Hotel Management System is a web-based application developed to simplify hotel room reservation and management. It allows customers to register, book rooms, view reservations, and manage their profiles, while administrators can efficiently manage reservations through a dedicated admin panel.
+This project was created as a learning exercise to understand web development concepts using PHP, MySQL, JavaScript, HTML, and CSS. It is intended for educational purposes and demonstrates CRUD operations, user authentication, database management, and responsive web interfaces.
 
-If you’d like to customize or improve the project, feel free to fork it and make your own changes. Please note that I am unable to dedicate time to refactoring or enhancing this project further.
+FEATURES
+Customer Features:
+User Registration and Login,
+Secure Authentication,
+Room Pricing Display,
+Online Room Reservation,
+View Reservation History,
+Update User Profile,
+Responsive User Interface.
 
-Thank you for understanding!
+Admin Features
+Admin Login,
+Manage Customer Reservations,
+View Booking Details,
+Update Reservation Status,
+Manage Customer Information.
+
+TECHNOLOGY USED
+ Frontend :- HTML, CSS, JavaScript.
+ Backend :-  PHP
+ Database :- MYSQL
 
 ## Table of Contents
 - [Setup](#setup)
